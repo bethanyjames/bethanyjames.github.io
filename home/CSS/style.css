@@ -146,11 +146,28 @@ ul {
 .latest {
     padding-top: 6%;
     padding-bottom: 6%;
+    text-align: center;
 }
 
-.latest img {
-    width: 20%;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+.latestImg {
+    width: 30%;
+    padding: 3%;
+}
+
+
+/******** Footer *******/
+footer {
+    background-color: #022D41;
+    color: white;
+    padding: 5%;
+    padding-bottom: 1%;
+}
+
+footer img {
+    width: 4%;
+    padding: 1%;
+}
+
+.socialIcons {
+    margin-left: 45%;
 }
