@@ -142,15 +142,29 @@ ul {
     grid-row: 1;
     grid-column: 1;
 }
-
 .latest {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.events {
+    border: solid #022D41;
+    margin: 10%;
+    margin-top: 6%;
+}
+
+.addPadding {
+    padding: 3%;
+}
+
+.newsletter {
     padding-top: 6%;
     padding-bottom: 6%;
     text-align: center;
 }
 
 .latestImg {
-    width: 30%;
+    width: 50%;
     padding: 3%;
 }
 
