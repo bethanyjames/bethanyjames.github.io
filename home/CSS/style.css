@@ -6,6 +6,7 @@ body {
 }
 html {
     overflow-x: hidden;
+    max-width: 100%;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -114,7 +115,7 @@ ul {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
     background-color: #022D41;
     overflow: hidden;
 }
@@ -122,6 +123,7 @@ main {
 .about {
     grid-column: 2;
     grid-row: 1;
+    text-align: center;
 }
 
 .contact {
@@ -129,50 +131,53 @@ main {
     grid-row: 2;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .newsletter {
     grid-column: 2;
     grid-row: 3;
+    text-align: center;
 }
 
 .area {
     grid-column: 3;
     grid-row: 2;
+    text-align: center;
 }
 
 .latest {
     grid-column: 1;
     grid-row: 1;
-    position: relative;
+    text-align: center;
 }
 
 .past {
     grid-column: 3;
     grid-row: 1;
-    position: relative;
+    text-align: center;
 }
 
 .lead {
     grid-column: 1;
     grid-row: 3;
-    position: relative;
+    text-align: center;
 }
 
 .recipe {
     grid-column: 3;
     grid-row: 3;
-    position: relative;
+    text-align: center;
 }
 
 .middle {
     grid-column: 2;
     grid-row: 2;
-    position: relative;
+    text-align: center;
 }
 
 .tile {
-    width: 100%;
+    width: 67%;
 }
 /******** Footer *******/
 footer {
