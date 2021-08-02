@@ -113,60 +113,60 @@ ul {
 /******** main *******/
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: #022D41;
     overflow: hidden;
 }
 
 .about {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 1;
 }
 
 .contact {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
     align-items: center;
     justify-content: center;
 }
 
 .newsletter {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 3;
 }
 
 .area {
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 2;
 }
 
 .latest {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
     position: relative;
 }
 
 .past {
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 1;
     position: relative;
 }
 
 .lead {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 3;
     position: relative;
 }
 
 .recipe {
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 3;
     position: relative;
 }
 
 .middle {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 2;
     position: relative;
 }
