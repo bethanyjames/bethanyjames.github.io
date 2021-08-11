@@ -238,25 +238,25 @@ footer img {
         text-align: left;
     }
 
-    .latest {
+    .gardening {
         grid-column: 2;
         grid-row: 1;
         text-align: left;
     }
 
-    .past {
+    .puzzles {
         grid-column: 1;
         grid-row: 2;
         text-align: right;
     }
 
-    .lead {
+    .recipes {
         grid-column: 1;
         grid-row: 4;
         text-align: right;
     }
 
-    .recipe {
+    .tips {
         grid-column: 2;
         grid-row: 3;
         text-align: left;
@@ -334,43 +334,43 @@ footer img {
         text-align: center;
     }
 
-    .contact {
+    .leadArticle {
         grid-column: 1;
         grid-row: 2;
         text-align: right;
     }
 
-    .newsletter {
+    .subscribe {
         grid-column: 2;
         grid-row: 3;
         text-align: center;
     }
 
-    .area {
+    .events {
         grid-column: 3;
         grid-row: 2;
         text-align: left;
     }
 
-    .latest {
+    .gardening {
         grid-column: 1;
         grid-row: 1;
         text-align: right;
     }
 
-    .past {
+    .puzzles {
         grid-column: 3;
         grid-row: 1;
         text-align: left;
     }
 
-    .lead {
+    .recipes {
         grid-column: 1;
         grid-row: 3;
         text-align: right;
     }
 
-    .recipe {
+    .tips {
         grid-column: 3;
         grid-row: 3;
         text-align: left;
