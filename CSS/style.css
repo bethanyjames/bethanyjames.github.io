@@ -11,6 +11,12 @@ html {
     max-width: 100%;
 }
 
+main {
+    background-color: #022D41;
+    overflow: hidden;
+    align-self: center;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 200%;
@@ -108,72 +114,7 @@ p {
 }
 
 /******** main *******/
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #022D41;
-    overflow: hidden;
-    align-self: center;
-}
 
-.about {
-    grid-column: 1;
-    grid-row: 1;
-    text-align: center;
-}
-
-.contact {
-    grid-column: 1;
-    grid-row: 3;
-    text-align: center;
-}
-
-.newsletter {
-    grid-column: 1;
-    grid-row: 5;
-    text-align: center;
-}
-
-.area {
-    grid-column: 1;
-    grid-row: 7;
-    text-align: center;
-}
-
-.latest {
-    grid-column: 1;
-    grid-row: 2;
-    text-align: center;
-}
-
-.past {
-    grid-column: 1;
-    grid-row: 4;
-    text-align: center;
-}
-
-.lead {
-    grid-column: 1;
-    grid-row: 6;
-    text-align: center;
-}
-
-.recipe {
-    grid-column: 1;
-    grid-row: 8;
-    text-align: center;
-}
-
-.middle {
-    grid-column: 1;
-    grid-row: 10;
-    text-align: center;
-    display: none;
-}
-
-.tile {
-    width: 89%;
-}
 
 /******** Footer *******/
 footer {
@@ -206,72 +147,7 @@ footer img {
         font-size: x-large;
     }
 
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background-color: #022D41;
-        overflow: hidden;
-        align-self: stretch;
-    }
-
-    .about {
-        grid-column: 1;
-        grid-row: 1;
-        text-align: right;
-    }
-
-    .contact {
-        grid-column: 1;
-        grid-row: 3;
-        text-align: right;
-    }
-
-    .newsletter {
-        grid-column: 2;
-        grid-row: 2;
-        text-align: left;
-    }
-
-    .area {
-        grid-column: 2;
-        grid-row: 4;
-        text-align: left;
-    }
-
-    .latest {
-        grid-column: 2;
-        grid-row: 1;
-        text-align: left;
-    }
-
-    .past {
-        grid-column: 1;
-        grid-row: 2;
-        text-align: right;
-    }
-
-    .lead {
-        grid-column: 1;
-        grid-row: 4;
-        text-align: right;
-    }
-
-    .recipe {
-        grid-column: 2;
-        grid-row: 3;
-        text-align: left;
-    }
-
-    .middle {
-        grid-column: 1;
-        grid-row: 2;
-        text-align: center;
-    }
-
-    .tile {
-        width: 89%;
-    }
-}
+} 
 
 /******************* DESKTOP *******************/
 @media only screen and (min-width:48em) {
@@ -317,73 +193,5 @@ footer img {
     .logo {
         width: 20%;
         display: inline;
-    }
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr;
-        background-color: #022D41;
-        overflow: hidden;
-        align-self: stretch;
-    }
-
-    .about {
-        grid-column: 2;
-        grid-row: 1;
-        text-align: center;
-    }
-
-    .contact {
-        grid-column: 1;
-        grid-row: 2;
-        text-align: right;
-    }
-
-    .newsletter {
-        grid-column: 2;
-        grid-row: 3;
-        text-align: center;
-    }
-
-    .area {
-        grid-column: 3;
-        grid-row: 2;
-        text-align: left;
-    }
-
-    .latest {
-        grid-column: 1;
-        grid-row: 1;
-        text-align: right;
-    }
-
-    .past {
-        grid-column: 3;
-        grid-row: 1;
-        text-align: left;
-    }
-
-    .lead {
-        grid-column: 1;
-        grid-row: 3;
-        text-align: right;
-    }
-
-    .recipe {
-        grid-column: 3;
-        grid-row: 3;
-        text-align: left;
-    }
-
-    .middle {
-        grid-column: 2;
-        grid-row: 2;
-        text-align: center;
-        display: inline;
-    }
-
-    .tile {
-        width: 89%;
     }
 }
