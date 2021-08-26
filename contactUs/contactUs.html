@@ -38,21 +38,54 @@
         </div>
     </header>
     <main>
+
+        <hr>
         <section class="info">
-            <div>
-                <p><B>Address:</B></p>
+            <div class="contact">
+                <img src="./img/1.png" alt="location">
+                <p><B>Address:</B> Harcourts Cooper & Co Albany Real Estate
+                    232 Dairy Flat Hwy 17
+                    Albany
+                    Auckland 0632</p>
             </div>
-            <div>
-                <p><B>Phone:</B></p>
+            <div class="contact">
+                <img src="./img/2.png" alt="phone">
+                <p><B>Phone:</B> 09 451 9337</p>
             </div>
-            <div>
-                <p><B>Email:</B></p>
+            <div class="contact">
+                <img src="./img/3.png" alt="email">
+                <p><B>Email:</B> looie.james@harcourts.co.nz</p>
             </div>
-            <div>
-                <p><B>Website:</B></p>
+            <div class="contact">
+                <img src="./img/4.png" alt="site">
+                <p><B>Website:</B> https://looiejames.harcourts.co.nz/</p>
             </div>
         </section>
-        <section class="form"></section>
+        <section class="form">
+            <form action="./thanks.html" target="_self" autocomplete="on">
+                <label for="fname"><b>Full Name</b></label>
+                <br>
+                <input type="text" id="fname" value="Name">
+                <br>
+
+                <label for="email"><b>Email Address</b></label>
+                <br>
+                <input type="email" id="email" value="Email">
+                <br>
+
+                <label for="subject"><b>Subject</b></label>
+                <br>
+                <input type="text" id="subject" value="Subject">
+                <br>
+
+                <label for="message"><b>Message</b></label>
+                <br>
+                <input type="text" id="message" value="Message">
+                <br>
+
+                <input type="submit" value="Send Message" onclick="alert('Message Sent! We will get back to you as soon as possible!')">
+            </form>
+        </section>
     </main>
     <footer>
         <section class="socialIcons">
