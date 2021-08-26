@@ -20,6 +20,12 @@ hr {
     display: grid;
     grid-template-columns: 1fr;
     padding: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.standing {
+    display: none;
 }
 
 .info p {
@@ -108,7 +114,6 @@ input[type=submit] {
         grid-template-columns: 1fr 1fr;
     }
 
-
 }
 
 
@@ -124,4 +129,11 @@ input[type=submit] {
         grid-column: 2/4;
     }
 
+    .standing {
+        display: block;
+        grid-column: 4/6;
+        width: 70%;
+        padding-left: 15px;
+        padding-top: 25px;
+    }
 }
