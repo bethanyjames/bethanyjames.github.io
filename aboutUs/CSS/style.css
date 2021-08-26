@@ -7,7 +7,6 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0px;
     margin: 0px;
-    background-color: #F7F3F0;
 }
 
 .group {
@@ -41,7 +40,7 @@ main {
     padding: 10%;
 }
 .intro p {
-    color: #022D41;
+    color: #DAECF3;
     text-align: justify;
     letter-spacing: 1px;
 }
@@ -76,7 +75,6 @@ main {
 }
 
 .intro p {
-    color: #022D41;
     text-align: justify;
     letter-spacing: 1px;
 }

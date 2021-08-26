@@ -9,7 +9,7 @@ main {
 }
 
 hr {
-    margin-top: 100px;
+    margin-top: 30px;
     width: 80%;
     color: #1aa6b7;
 }
@@ -57,20 +57,20 @@ hr {
     display: block;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 5%;
+    justify-items: center;
 }
 
 form {
     background-color: #fff;
-    box-shadow: black;
     padding: 40px;
     font-family: 'Montserrat', sans-serif;
     color: gray;
     grid-column: 2/6;
     box-shadow: 5px 10px 8px #888888;
     margin-bottom: 25px;
-    margin-top: 5%;
+    
     border-radius: 5px;
+    width: 100%;
 }
 
 label {
@@ -127,6 +127,13 @@ input[type=submit] {
 
     form {
         grid-column: 2/4;
+        margin-top: 5%;
+    }
+
+    hr {
+        margin-top: 100px;
+        width: 80%;
+        color: #1aa6b7;
     }
 
     .standing {
@@ -134,6 +141,5 @@ input[type=submit] {
         grid-column: 4/6;
         width: 70%;
         padding-left: 15px;
-        padding-top: 25px;
     }
 }
