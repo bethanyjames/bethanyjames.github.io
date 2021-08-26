@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
+
+
+/********************** SMALL **********************/
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px;
+    margin: 0px;
+    background-color: #F7F3F0;
+}
+
+.group {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.quote {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #FE424D;
+    line-height: 50px;
+    background-color: #DAECF3;
+}
+
+.quote p {
+    font-family: 'Bodoni Moda', serif;
+    font-size: large;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+.intro {
+    padding: 10%;
+}
+.intro p {
+    color: #022D41;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+/******************* TABLET *******************/
+@media only screen and (min-width:42em) {
+
+    .quote {
+        background-color: #DAECF3;
+        padding: 5%;
+        margin: 5%;
+    }
+}
+
+
+
+/******************* DESKTOP *******************/
+@media only screen and (min-width:55em) {
+
+.group {
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 0px;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.intro {
+    padding-top: 0;
+    padding-bottom: 0%;
+}
+
+.intro p {
+    color: #022D41;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+}
