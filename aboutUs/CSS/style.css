@@ -10,30 +10,32 @@ main {
 }
 
 .group {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-top: 15px;
+    padding: 10px;
 }
 
 .quote {
     margin-top: 5%;
-    margin-bottom: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
     color: #FE424D;
     line-height: 50px;
-    background-color: #DAECF3;
 }
 
 .quote p {
     font-family: 'Bodoni Moda', serif;
     font-size: large;
     text-align: left;
-    text-transform: uppercase;
     font-weight: bold;
-    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     letter-spacing: 2px;
+    display: block;
+    background-color:#F7F3F0;
 }
 
 .intro {
@@ -48,11 +50,10 @@ main {
 /******************* TABLET *******************/
 @media only screen and (min-width:42em) {
 
-    .quote {
-        background-color: #DAECF3;
-        padding: 5%;
-        margin: 5%;
-    }
+    .quote p{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }    
 }
 
 
@@ -60,18 +61,27 @@ main {
 /******************* DESKTOP *******************/
 @media only screen and (min-width:55em) {
 
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .group {
-    width: 40%;
-    float: left;
-    margin-left: 8%;
+    width: 70%;
     margin-top: 0px;
     padding: 30px;
     padding-top: 0;
+    display: block;
 }
 
+.quote {
+    width: 100%;
+    margin-left: 0;
+    display: none;
+}
 .intro {
     padding-top: 0;
-    padding-bottom: 0%;
+    padding-bottom: 15%;
 }
 
 .intro p {
